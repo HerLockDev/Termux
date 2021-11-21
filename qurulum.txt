@@ -52,7 +52,7 @@ echo -e $BOSLUK
 echo "⌛ FAYILLAR YÜKLƏNİR ⌛"
 echo "⌛ I DOWNLOAD FİLES ⌛"
 echo -e $BOSLUK
-git clone https://github.com/HerlockDev/installers
+git clone https://github.com/HerlockDev/installerim
 clear
 echo -e $NEON
 echo -e $BOSLUK
@@ -61,6 +61,6 @@ echo -e $BOSLUK
 echo "⌛ Bəzi Alt Yapi Dosyaları Yüklənir..."
 echo "⌛ INSTALLING REQUIREMENTS..."
 echo -e $BOSLUK
-cd neoninstaller
+cd installerim
 pip install -r requirements.txt
 python -m nitro_installer
